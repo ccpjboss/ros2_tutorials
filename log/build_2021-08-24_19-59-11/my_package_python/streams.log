@@ -1,0 +1,21 @@
+[0.763s] Invoking command in '/home/joaocastilho/dev_ws/src/my_package_python': PYTHONPATH=/home/joaocastilho/dev_ws/install/my_package_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package_python build --build-base /home/joaocastilho/dev_ws/build/my_package_python/build install --prefix /home/joaocastilho/dev_ws/install/my_package_python --record /home/joaocastilho/dev_ws/build/my_package_python/install.log --single-version-externally-managed
+[1.394s] running egg_info
+[1.395s] writing ../../build/my_package_python/my_package_python.egg-info/PKG-INFO
+[1.395s] writing dependency_links to ../../build/my_package_python/my_package_python.egg-info/dependency_links.txt
+[1.395s] writing entry points to ../../build/my_package_python/my_package_python.egg-info/entry_points.txt
+[1.396s] writing requirements to ../../build/my_package_python/my_package_python.egg-info/requires.txt
+[1.396s] writing top-level names to ../../build/my_package_python/my_package_python.egg-info/top_level.txt
+[1.455s] reading manifest file '../../build/my_package_python/my_package_python.egg-info/SOURCES.txt'
+[1.458s] writing manifest file '../../build/my_package_python/my_package_python.egg-info/SOURCES.txt'
+[1.458s] running build
+[1.458s] running build_py
+[1.458s] running install
+[1.459s] running install_lib
+[1.461s] running install_data
+[1.462s] running install_egg_info
+[1.465s] removing '/home/joaocastilho/dev_ws/install/my_package_python/lib/python3.8/site-packages/my_package_python-0.0.0-py3.8.egg-info' (and everything under it)
+[1.468s] Copying ../../build/my_package_python/my_package_python.egg-info to /home/joaocastilho/dev_ws/install/my_package_python/lib/python3.8/site-packages/my_package_python-0.0.0-py3.8.egg-info
+[1.468s] running install_scripts
+[1.493s] Installing my_node script to /home/joaocastilho/dev_ws/install/my_package_python/lib/my_package_python
+[1.494s] writing list of installed files to '/home/joaocastilho/dev_ws/build/my_package_python/install.log'
+[1.542s] Invoked command in '/home/joaocastilho/dev_ws/src/my_package_python' returned '0': PYTHONPATH=/home/joaocastilho/dev_ws/install/my_package_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package_python build --build-base /home/joaocastilho/dev_ws/build/my_package_python/build install --prefix /home/joaocastilho/dev_ws/install/my_package_python --record /home/joaocastilho/dev_ws/build/my_package_python/install.log --single-version-externally-managed

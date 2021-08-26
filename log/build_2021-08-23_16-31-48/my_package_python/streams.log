@@ -1,0 +1,28 @@
+[0.419s] Invoking command in '/home/joaocastilho/dev_ws/src/my_package_python': PYTHONPATH=/home/joaocastilho/dev_ws/install/my_package_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package_python build --build-base /home/joaocastilho/dev_ws/build/my_package_python/build install --prefix /home/joaocastilho/dev_ws/install/my_package_python --record /home/joaocastilho/dev_ws/build/my_package_python/install.log --single-version-externally-managed
+[0.746s] /home/joaocastilho/.local/lib/python3.8/site-packages/setuptools/dist.py:697: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.746s]   warnings.warn(
+[0.746s] /home/joaocastilho/.local/lib/python3.8/site-packages/setuptools/dist.py:697: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[0.746s]   warnings.warn(
+[0.781s] running egg_info
+[0.781s] writing ../../build/my_package_python/my_package_python.egg-info/PKG-INFO
+[0.782s] writing dependency_links to ../../build/my_package_python/my_package_python.egg-info/dependency_links.txt
+[0.782s] writing entry points to ../../build/my_package_python/my_package_python.egg-info/entry_points.txt
+[0.782s] writing requirements to ../../build/my_package_python/my_package_python.egg-info/requires.txt
+[0.782s] writing top-level names to ../../build/my_package_python/my_package_python.egg-info/top_level.txt
+[0.818s] reading manifest file '../../build/my_package_python/my_package_python.egg-info/SOURCES.txt'
+[0.819s] writing manifest file '../../build/my_package_python/my_package_python.egg-info/SOURCES.txt'
+[0.819s] running build
+[0.820s] running build_py
+[0.820s] copying my_package_python/my_node.py -> /home/joaocastilho/dev_ws/build/my_package_python/build/lib/my_package_python
+[0.820s] running install
+[0.821s] running install_lib
+[0.822s] copying /home/joaocastilho/dev_ws/build/my_package_python/build/lib/my_package_python/my_node.py -> /home/joaocastilho/dev_ws/install/my_package_python/lib/python3.8/site-packages/my_package_python
+[0.823s] byte-compiling /home/joaocastilho/dev_ws/install/my_package_python/lib/python3.8/site-packages/my_package_python/my_node.py to my_node.cpython-38.pyc
+[0.824s] running install_data
+[0.824s] running install_egg_info
+[0.826s] removing '/home/joaocastilho/dev_ws/install/my_package_python/lib/python3.8/site-packages/my_package_python-0.0.0-py3.8.egg-info' (and everything under it)
+[0.827s] Copying ../../build/my_package_python/my_package_python.egg-info to /home/joaocastilho/dev_ws/install/my_package_python/lib/python3.8/site-packages/my_package_python-0.0.0-py3.8.egg-info
+[0.827s] running install_scripts
+[0.846s] Installing my_node script to /home/joaocastilho/dev_ws/install/my_package_python/lib/my_package_python
+[0.847s] writing list of installed files to '/home/joaocastilho/dev_ws/build/my_package_python/install.log'
+[0.878s] Invoked command in '/home/joaocastilho/dev_ws/src/my_package_python' returned '0': PYTHONPATH=/home/joaocastilho/dev_ws/install/my_package_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package_python build --build-base /home/joaocastilho/dev_ws/build/my_package_python/build install --prefix /home/joaocastilho/dev_ws/install/my_package_python --record /home/joaocastilho/dev_ws/build/my_package_python/install.log --single-version-externally-managed

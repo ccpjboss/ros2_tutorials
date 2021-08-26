@@ -1,0 +1,28 @@
+[0.029s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy LD_LIBRARY_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_pubsub -- -j8 -l8
+[0.140s] [ 25%] Built target listener_num
+[0.148s] [ 50%] Built target talker_num
+[0.154s] [ 75%] Built target talker
+[0.161s] [100%] Built target listener
+[0.174s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy LD_LIBRARY_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_pubsub -- -j8 -l8
+[0.213s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy LD_LIBRARY_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_pubsub
+[0.223s] -- Install configuration: ""
+[0.223s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[0.224s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[0.226s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker_num
+[0.226s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener_num
+[0.226s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[0.226s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[0.227s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[0.227s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[0.227s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[0.228s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[0.228s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[0.228s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[0.228s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[0.228s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[0.228s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[0.229s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[0.229s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[0.229s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[0.229s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[0.229s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy LD_LIBRARY_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_pubsub

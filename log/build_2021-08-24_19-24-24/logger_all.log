@@ -1,0 +1,542 @@
+[0.400s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--base-paths', '/home/joaocastilho/dev_ws']
+[0.401s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['/home/joaocastilho/dev_ws'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8ba7f946a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8ba7f946a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8ba7f94be0>)
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.411s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/joaocastilho/dev_ws'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws) by extension 'colcon_meta'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws) by extensions ['ros']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws) by extension 'ros'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws) by extensions ['cmake', 'python']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws) by extension 'cmake'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws) by extension 'python'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws) by extensions ['python_setup_py']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws) by extension 'python_setup_py'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/build) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/build) ignored
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/install) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/install) ignored
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/log) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/log) ignored
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src) by extension 'ros'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src) by extensions ['cmake', 'python']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src) by extension 'cmake'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src) by extension 'python'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src) by extensions ['python_setup_py']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src) by extension 'python_setup_py'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/cpp_pubsub) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/cpp_pubsub) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/cpp_pubsub) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/cpp_pubsub) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/cpp_pubsub) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/cpp_pubsub) by extension 'ros'
+[0.430s] DEBUG:colcon.colcon_core.package_identification:Package '/home/joaocastilho/dev_ws/src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/cpp_srvcli) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/cpp_srvcli) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/cpp_srvcli) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/cpp_srvcli) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/cpp_srvcli) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/cpp_srvcli) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/cpp_srvcli) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/cpp_srvcli) by extension 'ros'
+[0.433s] DEBUG:colcon.colcon_core.package_identification:Package '/home/joaocastilho/dev_ws/src/cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/my_package) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/my_package) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/my_package) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/my_package) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/my_package) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/my_package) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/my_package) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/my_package) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package '/home/joaocastilho/dev_ws/src/my_package' with type 'ros.ament_cmake' and name 'my_package'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/my_package_python) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/my_package_python) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/my_package_python) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/my_package_python) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/my_package_python) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/my_package_python) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/my_package_python) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/my_package_python) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/my_package_python) by extension 'ros'
+[0.438s] DEBUG:colcon.colcon_core.package_identification:Package '/home/joaocastilho/dev_ws/src/my_package_python' with type 'ros.ament_python' and name 'my_package_python'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/py_pubsub) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/py_pubsub) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/py_pubsub) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/py_pubsub) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/py_pubsub) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/py_pubsub) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/py_pubsub) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/py_pubsub) by extension 'ros'
+[0.440s] DEBUG:colcon.colcon_core.package_identification:Package '/home/joaocastilho/dev_ws/src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials/ros_tutorials) ignored
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials/roscpp_tutorials) ignored
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials/rospy_tutorials) ignored
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/ros_tutorials/turtlesim) by extension 'ros'
+[0.445s] DEBUG:colcon.colcon_core.package_identification:Package '/home/joaocastilho/dev_ws/src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/tutorial_interfaces) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/tutorial_interfaces) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/tutorial_interfaces) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/tutorial_interfaces) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/tutorial_interfaces) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/tutorial_interfaces) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/tutorial_interfaces) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joaocastilho/dev_ws/src/tutorial_interfaces) by extension 'ros'
+[0.446s] DEBUG:colcon.colcon_core.package_identification:Package '/home/joaocastilho/dev_ws/src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.482s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joaocastilho/dev_ws/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joaocastilho/dev_ws/install/cpp_pubsub', 'merge_install': False, 'path': '/home/joaocastilho/dev_ws/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.486s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joaocastilho/dev_ws/build/cpp_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joaocastilho/dev_ws/install/cpp_srvcli', 'merge_install': False, 'path': '/home/joaocastilho/dev_ws/src/cpp_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.489s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joaocastilho/dev_ws/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joaocastilho/dev_ws/install/my_package', 'merge_install': False, 'path': '/home/joaocastilho/dev_ws/src/my_package', 'symlink_install': False, 'test_result_base': None}
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'my_package_python' build argument 'cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'my_package_python' build argument 'cmake_target' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'my_package_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'my_package_python' build argument 'cmake_clean_cache' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'my_package_python' build argument 'cmake_clean_first' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'my_package_python' build argument 'cmake_force_configure' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'my_package_python' build argument 'ament_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'my_package_python' build argument 'catkin_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'my_package_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.493s] DEBUG:colcon.colcon_core.verb:Building package 'my_package_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joaocastilho/dev_ws/build/my_package_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joaocastilho/dev_ws/install/my_package_python', 'merge_install': False, 'path': '/home/joaocastilho/dev_ws/src/my_package_python', 'symlink_install': False, 'test_result_base': None}
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.497s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joaocastilho/dev_ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joaocastilho/dev_ws/install/py_pubsub', 'merge_install': False, 'path': '/home/joaocastilho/dev_ws/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.501s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joaocastilho/dev_ws/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joaocastilho/dev_ws/install/turtlesim', 'merge_install': False, 'path': '/home/joaocastilho/dev_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.505s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joaocastilho/dev_ws/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joaocastilho/dev_ws/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/joaocastilho/dev_ws/src/tutorial_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.506s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.509s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.509s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/joaocastilho/dev_ws/src/cpp_pubsub' with build type 'ament_cmake'
+[0.510s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/joaocastilho/dev_ws/src/cpp_pubsub'
+[0.520s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.521s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.521s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.526s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.529s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/joaocastilho/dev_ws/src/cpp_srvcli' with build type 'ament_cmake'
+[0.529s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/joaocastilho/dev_ws/src/cpp_srvcli'
+[0.530s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.531s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.534s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.537s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/joaocastilho/dev_ws/src/my_package' with build type 'ament_cmake'
+[0.537s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/joaocastilho/dev_ws/src/my_package'
+[0.538s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.539s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.541s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.543s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/joaocastilho/dev_ws/src/my_package_python' with build type 'ament_python'
+[0.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package_python', 'ament_prefix_path')
+[0.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/my_package_python/share/my_package_python/hook/ament_prefix_path.ps1'
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/my_package_python/share/my_package_python/hook/ament_prefix_path.dsv'
+[0.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/my_package_python/share/my_package_python/hook/ament_prefix_path.sh'
+[0.549s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.549s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.552s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.555s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/joaocastilho/dev_ws/src/py_pubsub' with build type 'ament_python'
+[0.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[0.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[0.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[0.559s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.559s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.562s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.566s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/joaocastilho/dev_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[0.566s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/joaocastilho/dev_ws/src/ros_tutorials/turtlesim'
+[0.568s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.568s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.572s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.574s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/joaocastilho/dev_ws/src/tutorial_interfaces' with build type 'ament_cmake'
+[0.574s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/joaocastilho/dev_ws/src/tutorial_interfaces'
+[0.576s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.579s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joaocastilho/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_pubsub -- -j8 -l8
+[0.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joaocastilho/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_srvcli -- -j8 -l8
+[0.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joaocastilho/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/my_package -- -j8 -l8
+[0.939s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/joaocastilho/dev_ws/src/my_package_python'
+[0.941s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.941s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.943s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.227s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/joaocastilho/dev_ws/src/py_pubsub'
+[1.228s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.228s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.231s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joaocastilho/dev_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/turtlesim -- -j8 -l8
+[1.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joaocastilho/dev_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake /home/joaocastilho/dev_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/joaocastilho/dev_ws/install/tutorial_interfaces
+[1.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joaocastilho/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_pubsub -- -j8 -l8
+[1.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joaocastilho/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_srvcli -- -j8 -l8
+[1.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joaocastilho/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/my_package -- -j8 -l8
+[1.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joaocastilho/dev_ws/src/my_package_python': PYTHONPATH=/home/joaocastilho/dev_ws/install/my_package_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package_python build --build-base /home/joaocastilho/dev_ws/build/my_package_python/build install --prefix /home/joaocastilho/dev_ws/install/my_package_python --record /home/joaocastilho/dev_ws/build/my_package_python/install.log --single-version-externally-managed
+[1.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joaocastilho/dev_ws/src/py_pubsub': PYTHONPATH=/home/joaocastilho/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/joaocastilho/dev_ws/build/py_pubsub/build install --prefix /home/joaocastilho/dev_ws/install/py_pubsub --record /home/joaocastilho/dev_ws/build/py_pubsub/install.log --single-version-externally-managed
+[1.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joaocastilho/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_srvcli
+[1.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joaocastilho/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_pubsub
+[1.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joaocastilho/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/my_package
+[1.358s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[1.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joaocastilho/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_srvcli
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_srvcli' for CMake module files
+[1.389s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_srvcli' for CMake config files
+[1.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[1.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[1.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[1.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[1.403s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_srvcli/lib'
+[1.404s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_srvcli/bin'
+[1.404s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[1.404s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_srvcli/lib/python3.8/site-packages'
+[1.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[1.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[1.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[1.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[1.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[1.413s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joaocastilho/dev_ws/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[1.419s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_pubsub' for CMake module files
+[1.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joaocastilho/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_pubsub
+[1.426s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_pubsub' for CMake config files
+[1.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[1.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[1.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_pubsub/lib'
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_pubsub/bin'
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_pubsub/lib/python3.8/site-packages'
+[1.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[1.437s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[1.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[1.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[1.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[1.442s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joaocastilho/dev_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[1.455s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[1.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joaocastilho/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/my_package
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/my_package' for CMake module files
+[1.460s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/my_package' for CMake config files
+[1.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'cmake_prefix_path')
+[1.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/my_package/share/my_package/hook/cmake_prefix_path.ps1'
+[1.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/my_package/share/my_package/hook/cmake_prefix_path.dsv'
+[1.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/my_package/share/my_package/hook/cmake_prefix_path.sh'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/my_package/lib'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/my_package/bin'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/my_package/lib/pkgconfig/my_package.pc'
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/my_package/lib/python3.8/site-packages'
+[1.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/my_package/share/my_package/package.ps1'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joaocastilho/dev_ws/install/my_package/share/my_package/package.dsv'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/my_package/share/my_package/package.sh'
+[1.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/my_package/share/my_package/package.bash'
+[1.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/my_package/share/my_package/package.zsh'
+[1.473s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joaocastilho/dev_ws/install/my_package/share/colcon-core/packages/my_package)
+[1.501s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_pubsub' for CMake module files
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_pubsub' for CMake config files
+[1.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[1.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_pubsub/lib'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_pubsub/bin'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_pubsub/lib/python3.8/site-packages'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[1.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[1.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[1.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[1.519s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joaocastilho/dev_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[1.522s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[1.524s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/my_package' for CMake module files
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/my_package' for CMake config files
+[1.525s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'cmake_prefix_path')
+[1.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/my_package/share/my_package/hook/cmake_prefix_path.ps1'
+[1.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/my_package/share/my_package/hook/cmake_prefix_path.dsv'
+[1.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/my_package/share/my_package/hook/cmake_prefix_path.sh'
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/my_package/lib'
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/my_package/bin'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/my_package/lib/pkgconfig/my_package.pc'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/my_package/lib/python3.8/site-packages'
+[1.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/my_package/share/my_package/package.ps1'
+[1.537s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joaocastilho/dev_ws/install/my_package/share/my_package/package.dsv'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/my_package/share/my_package/package.sh'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/my_package/share/my_package/package.bash'
+[1.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/my_package/share/my_package/package.zsh'
+[1.539s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joaocastilho/dev_ws/install/my_package/share/colcon-core/packages/my_package)
+[1.541s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_srvcli' for CMake module files
+[1.545s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_srvcli' for CMake config files
+[1.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[1.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[1.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[1.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_srvcli/lib'
+[1.550s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_srvcli/bin'
+[1.550s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[1.550s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/cpp_srvcli/lib/python3.8/site-packages'
+[1.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[1.552s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[1.555s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joaocastilho/dev_ws/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/py_pubsub' for CMake module files
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/py_pubsub' for CMake config files
+[1.833s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/py_pubsub/lib'
+[1.834s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/py_pubsub/bin'
+[1.834s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[1.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joaocastilho/dev_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/joaocastilho/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/joaocastilho/dev_ws/build/py_pubsub/build install --prefix /home/joaocastilho/dev_ws/install/py_pubsub --record /home/joaocastilho/dev_ws/build/py_pubsub/install.log --single-version-externally-managed
+[1.834s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/py_pubsub/lib/python3.8/site-packages'
+[1.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[1.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[1.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[1.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[1.838s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[1.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[1.841s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joaocastilho/dev_ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[1.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/py_pubsub/share/py_pubsub/package.sh'
+[1.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/py_pubsub/share/py_pubsub/package.bash'
+[1.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[1.843s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joaocastilho/dev_ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[1.846s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/my_package_python' for CMake module files
+[1.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joaocastilho/dev_ws/src/my_package_python' returned '0': PYTHONPATH=/home/joaocastilho/dev_ws/install/my_package_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package_python build --build-base /home/joaocastilho/dev_ws/build/my_package_python/build install --prefix /home/joaocastilho/dev_ws/install/my_package_python --record /home/joaocastilho/dev_ws/build/my_package_python/install.log --single-version-externally-managed
+[1.848s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/my_package_python' for CMake config files
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/my_package_python/lib'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/my_package_python/bin'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/my_package_python/lib/pkgconfig/my_package_python.pc'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/my_package_python/lib/python3.8/site-packages'
+[1.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package_python', 'pythonpath')
+[1.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/my_package_python/share/my_package_python/hook/pythonpath.ps1'
+[1.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/my_package_python/share/my_package_python/hook/pythonpath.dsv'
+[1.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/my_package_python/share/my_package_python/hook/pythonpath.sh'
+[1.851s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package_python)
+[1.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/my_package_python/share/my_package_python/package.ps1'
+[1.853s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joaocastilho/dev_ws/install/my_package_python/share/my_package_python/package.dsv'
+[1.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/my_package_python/share/my_package_python/package.sh'
+[1.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/my_package_python/share/my_package_python/package.bash'
+[1.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/my_package_python/share/my_package_python/package.zsh'
+[1.855s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joaocastilho/dev_ws/install/my_package_python/share/colcon-core/packages/my_package_python)
+[2.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joaocastilho/dev_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/turtlesim -- -j8 -l8
+[2.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joaocastilho/dev_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/turtlesim
+[2.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[2.341s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/turtlesim' for CMake module files
+[2.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joaocastilho/dev_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/turtlesim
+[2.342s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/turtlesim' for CMake config files
+[2.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[2.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[2.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[2.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[2.345s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/turtlesim/lib'
+[2.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[2.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[2.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[2.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[2.347s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/turtlesim/bin'
+[2.347s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[2.347s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/turtlesim/lib/python3.8/site-packages'
+[2.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[2.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[2.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[2.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[2.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/package.ps1'
+[2.351s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/package.dsv'
+[2.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/package.sh'
+[2.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/package.bash'
+[2.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/package.zsh'
+[2.352s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joaocastilho/dev_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[2.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[2.525s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/turtlesim' for CMake module files
+[2.526s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/turtlesim' for CMake config files
+[2.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[2.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[2.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[2.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[2.530s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/turtlesim/lib'
+[2.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[2.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[2.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[2.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[2.533s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/turtlesim/bin'
+[2.534s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[2.534s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/turtlesim/lib/python3.8/site-packages'
+[2.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[2.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[2.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[2.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[2.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/package.ps1'
+[2.538s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/package.dsv'
+[2.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/package.sh'
+[2.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/package.bash'
+[2.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/turtlesim/share/turtlesim/package.zsh'
+[2.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joaocastilho/dev_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[3.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joaocastilho/dev_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake /home/joaocastilho/dev_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/joaocastilho/dev_ws/install/tutorial_interfaces
+[3.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joaocastilho/dev_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/tutorial_interfaces -- -j8 -l8
+[7.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joaocastilho/dev_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/tutorial_interfaces -- -j8 -l8
+[7.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joaocastilho/dev_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/tutorial_interfaces
+[7.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[7.504s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/tutorial_interfaces' for CMake module files
+[7.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joaocastilho/dev_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/tutorial_interfaces
+[7.505s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/tutorial_interfaces' for CMake config files
+[7.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[7.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[7.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[7.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[7.508s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib'
+[7.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[7.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[7.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[7.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[7.510s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/tutorial_interfaces/bin'
+[7.510s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[7.510s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages'
+[7.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'pythonpath')
+[7.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.ps1'
+[7.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.dsv'
+[7.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.sh'
+[7.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[7.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[7.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[7.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[7.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[7.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[7.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[7.583s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/tutorial_interfaces' for CMake module files
+[7.584s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/tutorial_interfaces' for CMake config files
+[7.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[7.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[7.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[7.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[7.587s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib'
+[7.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[7.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[7.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[7.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[7.590s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/tutorial_interfaces/bin'
+[7.590s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[7.590s] Level 1:colcon.colcon_core.environment:checking '/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages'
+[7.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'pythonpath')
+[7.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.ps1'
+[7.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.dsv'
+[7.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.sh'
+[7.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[7.594s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[7.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[7.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[7.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[7.596s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[7.596s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.597s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.597s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.597s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.619s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[7.620s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.620s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.620s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.640s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.642s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joaocastilho/dev_ws/install/local_setup.ps1'
+[7.643s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/joaocastilho/dev_ws/install/_local_setup_util_ps1.py'
+[7.645s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joaocastilho/dev_ws/install/setup.ps1'
+[7.649s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joaocastilho/dev_ws/install/local_setup.sh'
+[7.650s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/joaocastilho/dev_ws/install/_local_setup_util_sh.py'
+[7.651s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joaocastilho/dev_ws/install/setup.sh'
+[7.654s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joaocastilho/dev_ws/install/local_setup.bash'
+[7.655s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joaocastilho/dev_ws/install/setup.bash'
+[7.660s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joaocastilho/dev_ws/install/local_setup.zsh'
+[7.661s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joaocastilho/dev_ws/install/setup.zsh'

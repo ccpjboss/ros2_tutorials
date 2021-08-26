@@ -1,0 +1,6 @@
+[0.034s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_pubsub -- -j8 -l8
+[0.133s] [ 25%] Built target listener_num
+[0.138s] [ 50%] Built target listener
+[0.142s] [ 75%] Built target talker
+[0.150s] [100%] Built target talker_num
+[0.167s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_pubsub -- -j8 -l8

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/joaocastilho/dev_ws/build/tutorial_interfaces/talker" "/home/joaocastilho/dev_ws/build/tutorial_interfaces/listener" "TARGETS" "talker" "listener" "DESTINATION" "lib/tutorial_interfaces")

@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing my_package_python.egg-info/PKG-INFO
+writing dependency_links to my_package_python.egg-info/dependency_links.txt
+writing entry points to my_package_python.egg-info/entry_points.txt
+writing requirements to my_package_python.egg-info/requires.txt
+writing top-level names to my_package_python.egg-info/top_level.txt
+reading manifest file 'my_package_python.egg-info/SOURCES.txt'
+writing manifest file 'my_package_python.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/joaocastilho/dev_ws/install/my_package_python/lib/python3.8/site-packages/my-package-python.egg-link (link to .)
+Installing my_node script to /home/joaocastilho/dev_ws/install/my_package_python/lib/my_package_python
+
+Installed /home/joaocastilho/dev_ws/build/my_package_python
+running install_data

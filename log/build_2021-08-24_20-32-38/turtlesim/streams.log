@@ -1,0 +1,20 @@
+[0.673s] Invoking command in '/home/joaocastilho/dev_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/turtlesim -- -j8 -l8
+[0.744s] [  1%] Built target turtlesim__cpp
+[0.753s] [ 11%] Built target turtlesim__rosidl_generator_c
+[0.798s] [ 21%] Built target turtlesim__rosidl_typesupport_cpp
+[0.801s] [ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.814s] [ 41%] Built target turtlesim__rosidl_typesupport_c
+[0.815s] [ 56%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.816s] [ 61%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.857s] [ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.893s] [ 71%] Built target turtlesim
+[0.937s] [ 72%] Built target turtlesim__py
+[0.972s] [ 74%] Built target mimic
+[0.982s] [ 76%] Built target draw_square
+[0.996s] [ 78%] Built target turtle_teleop_key
+[1.000s] [ 84%] Built target turtlesim_node
+[1.039s] [ 93%] Built target turtlesim__python
+[1.078s] [ 95%] Built target turtlesim__rosidl_typesupport_c__pyext
+[1.079s] [ 97%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[1.085s] [100%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[1.135s] Invoked command in '/home/joaocastilho/dev_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/turtlesim -- -j8 -l8

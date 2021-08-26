@@ -1,0 +1,77 @@
+[0.063s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake /home/joaocastilho/dev_ws/src/cpp_parameters -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joaocastilho/dev_ws/install/cpp_parameters
+[0.865s] -- The C compiler identification is GNU 9.3.0
+[0.866s] -- The CXX compiler identification is GNU 9.3.0
+[0.866s] -- Check for working C compiler: /usr/bin/cc
+[0.866s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.866s] -- Detecting C compiler ABI info
+[0.866s] -- Detecting C compiler ABI info - done
+[0.866s] -- Detecting C compile features
+[0.866s] -- Detecting C compile features - done
+[0.866s] -- Check for working CXX compiler: /usr/bin/c++
+[0.867s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.867s] -- Detecting CXX compiler ABI info
+[1.071s] -- Detecting CXX compiler ABI info - done
+[1.090s] -- Detecting CXX compile features
+[1.091s] -- Detecting CXX compile features - done
+[1.095s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.158s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.159s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.460s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.504s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.604s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.621s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.802s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.851s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.037s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.319s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.327s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.330s] -- Looking for pthread.h
+[2.816s] -- Looking for pthread.h - found
+[2.816s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.143s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.148s] -- Looking for pthread_create in pthreads
+[3.426s] -- Looking for pthread_create in pthreads - not found
+[3.427s] -- Looking for pthread_create in pthread
+[3.695s] -- Looking for pthread_create in pthread - found
+[3.697s] -- Found Threads: TRUE  
+[4.061s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.227s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.229s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.229s] -- Configured cppcheck include dirs: 
+[4.229s] -- Configured cppcheck exclude dirs and/or files: 
+[4.230s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.231s] -- Configured cpplint exclude dirs and/or files: 
+[4.232s] -- Added test 'lint_cmake' to check CMake code style
+[4.234s] -- Added test 'uncrustify' to check C / C++ code style
+[4.234s] -- Configured uncrustify additional arguments: 
+[4.236s] -- Added test 'xmllint' to check XML markup files
+[4.244s] -- Configuring done
+[4.257s] -- Generating done
+[4.260s] -- Build files have been written to: /home/joaocastilho/dev_ws/build/cpp_parameters
+[4.275s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake /home/joaocastilho/dev_ws/src/cpp_parameters -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joaocastilho/dev_ws/install/cpp_parameters
+[4.279s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_parameters -- -j8 -l8
+[4.377s] [35m[1mScanning dependencies of target parameter_node[0m
+[4.441s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_node.dir/src/cpp_parameters_node.cpp.o[0m
+[14.668s] [100%] [32m[1mLinking CXX executable parameter_node[0m
+[15.333s] [100%] Built target parameter_node
+[15.368s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_parameters -- -j8 -l8
+[15.664s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_parameters
+[15.714s] -- Install configuration: "RelWithDebInfo"
+[15.715s] -- Execute custom install script
+[15.717s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_parameters/lib/cpp_parameters/parameter_node
+[15.741s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+[15.800s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+[15.853s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+[15.891s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+[15.948s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+[16.003s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+[16.048s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+[16.098s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+[16.136s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+[16.189s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+[16.216s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_parameters/share/cpp_parameters/package.dsv
+[16.233s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+[16.278s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+[16.295s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+[16.327s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_parameters/share/cpp_parameters/package.xml
+[16.364s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_parameters

@@ -1,0 +1,24 @@
+[0.085s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_srvcli -- -j8 -l8
+[0.760s] [ 50%] Built target server
+[0.760s] [100%] Built target client
+[0.765s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_srvcli -- -j8 -l8
+[1.035s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_srvcli
+[1.091s] -- Install configuration: ""
+[1.092s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[1.093s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[1.094s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[1.095s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[1.095s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[1.095s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[1.095s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[1.096s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[1.096s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[1.096s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[1.096s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[1.096s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[1.096s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[1.097s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[1.097s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[1.097s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[1.097s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[1.105s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_srvcli

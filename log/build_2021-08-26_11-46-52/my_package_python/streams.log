@@ -1,0 +1,17 @@
+[0.873s] Invoking command in '/home/joaocastilho/dev_ws/build/my_package_python': PYTHONPATH=/home/joaocastilho/dev_ws/install/my_package_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/joaocastilho/dev_ws/install/my_package_python --editable --build-directory /home/joaocastilho/dev_ws/build/my_package_python/build --no-deps install_data --install-dir /home/joaocastilho/dev_ws/install/my_package_python
+[1.373s] running develop
+[1.619s] running egg_info
+[1.620s] writing my_package_python.egg-info/PKG-INFO
+[1.620s] writing dependency_links to my_package_python.egg-info/dependency_links.txt
+[1.620s] writing entry points to my_package_python.egg-info/entry_points.txt
+[1.621s] writing requirements to my_package_python.egg-info/requires.txt
+[1.621s] writing top-level names to my_package_python.egg-info/top_level.txt
+[1.688s] reading manifest file 'my_package_python.egg-info/SOURCES.txt'
+[1.690s] writing manifest file 'my_package_python.egg-info/SOURCES.txt'
+[1.765s] running build_ext
+[1.765s] Creating /home/joaocastilho/dev_ws/install/my_package_python/lib/python3.8/site-packages/my-package-python.egg-link (link to .)
+[1.768s] Installing my_node script to /home/joaocastilho/dev_ws/install/my_package_python/lib/my_package_python
+[1.768s] 
+[1.769s] Installed /home/joaocastilho/dev_ws/build/my_package_python
+[1.769s] running install_data
+[1.836s] Invoked command in '/home/joaocastilho/dev_ws/build/my_package_python' returned '0': PYTHONPATH=/home/joaocastilho/dev_ws/install/my_package_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/joaocastilho/dev_ws/install/my_package_python --editable --build-directory /home/joaocastilho/dev_ws/build/my_package_python/build --no-deps install_data --install-dir /home/joaocastilho/dev_ws/install/my_package_python

@@ -1,0 +1,61 @@
+[0.032s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy LD_LIBRARY_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_srvcli -- -j8 -l8
+[0.087s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.128s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.411s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.451s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.455s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.608s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.664s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.666s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.818s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.935s] -- Found tutorial_interfaces: 0.0.0 (/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.944s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.021s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.022s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.023s] -- Configured cppcheck include dirs: 
+[1.023s] -- Configured cppcheck exclude dirs and/or files: 
+[1.023s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.024s] -- Configured cpplint exclude dirs and/or files: 
+[1.024s] -- Added test 'lint_cmake' to check CMake code style
+[1.025s] -- Added test 'uncrustify' to check C / C++ code style
+[1.025s] -- Configured uncrustify additional arguments: 
+[1.025s] -- Added test 'xmllint' to check XML markup files
+[1.028s] -- Configuring done
+[1.052s] -- Generating done
+[1.054s] -- Build files have been written to: /home/joaocastilho/dev_ws/build/cpp_srvcli
+[1.082s] [35m[1mScanning dependencies of target client_three[0m
+[1.083s] [35m[1mScanning dependencies of target client[0m
+[1.097s] [ 12%] [32mBuilding CXX object CMakeFiles/client_three.dir/src/add_three_ints_client.cpp.o[0m
+[1.103s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[1.103s] [ 50%] Built target server_three
+[1.107s] [ 75%] Built target server
+[3.706s] [ 87%] [32m[1mLinking CXX executable client[0m
+[3.715s] [100%] [32m[1mLinking CXX executable client_three[0m
+[3.903s] [100%] Built target client_three
+[3.911s] [100%] Built target client
+[3.924s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy LD_LIBRARY_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_srvcli -- -j8 -l8
+[3.958s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy LD_LIBRARY_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_srvcli
+[3.967s] -- Install configuration: ""
+[3.967s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[3.968s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[3.969s] -- Set runtime path of "/home/joaocastilho/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[3.969s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server_three
+[3.970s] -- Set runtime path of "/home/joaocastilho/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server_three" to ""
+[3.970s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client_three
+[3.971s] -- Set runtime path of "/home/joaocastilho/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client_three" to ""
+[3.971s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[3.971s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[3.971s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[3.971s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[3.972s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[3.972s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[3.972s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[3.972s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[3.972s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[3.972s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[3.973s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[3.973s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[3.973s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[3.973s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[3.973s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[3.977s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy LD_LIBRARY_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_srvcli

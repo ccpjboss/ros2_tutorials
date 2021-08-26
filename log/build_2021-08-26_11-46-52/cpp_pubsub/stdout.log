@@ -1,0 +1,46 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tutorial_interfaces: 0.0.0 (/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/joaocastilho/dev_ws/build/cpp_pubsub
+[ 12%] [32mBuilding CXX object CMakeFiles/listener_num.dir/src/subscriber_member_function_num.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/talker_num.dir/src/publisher_member_function_num.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable talker[0m
+[ 75%] [32m[1mLinking CXX executable talker_num[0m
+[ 75%] Built target talker_num
+[ 75%] Built target talker
+[ 87%] [32m[1mLinking CXX executable listener[0m
+[ 87%] Built target listener
+[100%] [32m[1mLinking CXX executable listener_num[0m
+[100%] Built target listener_num
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker_num
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener_num
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+-- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml

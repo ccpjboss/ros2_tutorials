@@ -1,0 +1,60 @@
+[0.064s] Invoking command in '/home/joaocastilho/dev_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/more_interfaces -- -j8 -l8
+[0.756s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.756s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.756s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.756s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.756s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.756s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.756s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.757s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.757s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.758s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.008s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.217s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.397s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.407s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.437s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.438s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.471s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.472s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.474s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.494s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.509s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.510s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.512s] -- Configured cppcheck include dirs: 
+[1.512s] -- Configured cppcheck exclude dirs and/or files: 
+[1.513s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.513s] -- Configured cpplint exclude dirs and/or files: 
+[1.518s] -- Added test 'lint_cmake' to check CMake code style
+[1.519s] -- Added test 'uncrustify' to check C / C++ code style
+[1.522s] -- Configured uncrustify additional arguments: 
+[1.523s] -- Added test 'xmllint' to check XML markup files
+[1.523s] -- Configuring done
+[1.574s] -- Generating done
+[1.579s] -- Build files have been written to: /home/joaocastilho/dev_ws/build/more_interfaces
+[1.612s] [35m[1mScanning dependencies of target subscribe_address_book[0m
+[1.623s] [  8%] Built target more_interfaces__rosidl_generator_c
+[1.626s] [ 11%] Built target more_interfaces__cpp
+[1.652s] [ 20%] Built target more_interfaces__rosidl_typesupport_c
+[1.655s] [ 28%] Built target more_interfaces__rosidl_typesupport_cpp
+[1.657s] [ 37%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[1.658s] [ 40%] [32mBuilding CXX object CMakeFiles/subscribe_address_book.dir/src/subscribe_address_book.cpp.o[0m
+[1.665s] [ 48%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[1.668s] [ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.695s] [ 65%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[1.717s] [ 65%] Built target more_interfaces
+[1.739s] [ 68%] Built target more_interfaces__py
+[1.752s] [ 74%] Built target publish_address_book
+[1.765s] [ 80%] Built target more_interfaces__python
+[1.779s] [01m[K/home/joaocastilho/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kmore_interfaces/msg/address_book.hpp: No such file or directory
+[1.779s]     4 | #include [01;31m[K"more_interfaces/msg/address_book.hpp"[m[K
+[1.779s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.779s] compilation terminated.
+[1.781s] make[2]: *** [CMakeFiles/subscribe_address_book.dir/build.make:63: CMakeFiles/subscribe_address_book.dir/src/subscribe_address_book.cpp.o] Error 1
+[1.781s] make[1]: *** [CMakeFiles/Makefile2:332: CMakeFiles/subscribe_address_book.dir/all] Error 2
+[1.782s] make[1]: *** Waiting for unfinished jobs....
+[1.795s] [ 85%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.797s] [ 91%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.799s] [ 97%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[1.800s] make: *** [Makefile:141: all] Error 2
+[1.806s] Invoked command in '/home/joaocastilho/dev_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/more_interfaces -- -j8 -l8

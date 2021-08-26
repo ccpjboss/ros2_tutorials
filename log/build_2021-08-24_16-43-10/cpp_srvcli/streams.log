@@ -1,0 +1,83 @@
+[0.064s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake /home/joaocastilho/dev_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/joaocastilho/dev_ws/install/cpp_srvcli
+[0.816s] -- The C compiler identification is GNU 9.3.0
+[0.816s] -- The CXX compiler identification is GNU 9.3.0
+[0.816s] -- Check for working C compiler: /usr/bin/cc
+[0.817s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.819s] -- Detecting C compiler ABI info
+[0.820s] -- Detecting C compiler ABI info - done
+[0.820s] -- Detecting C compile features
+[0.820s] -- Detecting C compile features - done
+[0.820s] -- Check for working CXX compiler: /usr/bin/c++
+[0.821s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.821s] -- Detecting CXX compiler ABI info
+[0.907s] -- Detecting CXX compiler ABI info - done
+[0.929s] -- Detecting CXX compile features
+[0.930s] -- Detecting CXX compile features - done
+[0.936s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.997s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.997s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.388s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.467s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.479s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.586s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.622s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.730s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.805s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.808s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.810s] -- Looking for pthread.h
+[1.881s] -- Looking for pthread.h - found
+[1.881s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.958s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.958s] -- Looking for pthread_create in pthreads
+[2.021s] -- Looking for pthread_create in pthreads - not found
+[2.021s] -- Looking for pthread_create in pthread
+[2.093s] -- Looking for pthread_create in pthread - found
+[2.095s] -- Found Threads: TRUE  
+[2.304s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[2.445s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.537s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.538s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.539s] -- Configured cppcheck include dirs: 
+[2.539s] -- Configured cppcheck exclude dirs and/or files: 
+[2.540s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.540s] -- Configured cpplint exclude dirs and/or files: 
+[2.541s] -- Added test 'lint_cmake' to check CMake code style
+[2.542s] -- Added test 'uncrustify' to check C / C++ code style
+[2.542s] -- Configured uncrustify additional arguments: 
+[2.543s] -- Added test 'xmllint' to check XML markup files
+[2.547s] -- Configuring done
+[2.561s] -- Generating done
+[2.563s] -- Build files have been written to: /home/joaocastilho/dev_ws/build/cpp_srvcli
+[2.576s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake /home/joaocastilho/dev_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/joaocastilho/dev_ws/install/cpp_srvcli
+[2.579s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_srvcli -- -j8 -l8
+[2.622s] [35m[1mScanning dependencies of target server[0m
+[2.622s] [35m[1mScanning dependencies of target client[0m
+[2.661s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[2.663s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[4.946s] [ 75%] [32m[1mLinking CXX executable server[0m
+[5.134s] [ 75%] Built target server
+[5.194s] [100%] [32m[1mLinking CXX executable client[0m
+[5.358s] [100%] Built target client
+[5.371s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_srvcli -- -j8 -l8
+[5.399s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_srvcli
+[5.406s] -- Install configuration: ""
+[5.407s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[5.407s] -- Set runtime path of "/home/joaocastilho/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[5.407s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[5.408s] -- Set runtime path of "/home/joaocastilho/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[5.408s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[5.408s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[5.409s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[5.409s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[5.409s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[5.409s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[5.409s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[5.409s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[5.410s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[5.410s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[5.410s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[5.410s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[5.410s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[5.410s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[5.411s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[5.414s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_srvcli

@@ -1,0 +1,19 @@
+CMake Error in CMakeLists.txt:
+  Target "polygon_plugins" INTERFACE_INCLUDE_DIRECTORIES property contains
+  path:
+
+    "/home/joaocastilho/dev_ws/src/polygon_plugins/<BUILD_INTERFACE:/home/joaocastilho/dev_ws/src/polygon_plugins/include>"
+
+  which is prefixed in the source directory.
+
+
+CMake Error in CMakeLists.txt:
+  Target "polygon_plugins" INTERFACE_INCLUDE_DIRECTORIES property contains
+  path:
+
+    "/home/joaocastilho/dev_ws/src/polygon_plugins/<INSTALL_INTERFACE:include>"
+
+  which is prefixed in the source directory.
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/joaocastilho/dev_ws/install/turtlesim/include/**",
+                "/opt/ros/foxy/include/**",
+                "/home/joaocastilho/dev_ws/src/ros_tutorials/turtlesim/include/**",
+                "/usr/include/**",
+                "/home/joaocastilho/dev_ws/src/cpp_pubsub/include/**",
+                "/opt/ros/foxy/include",
+                "${workspaceFolder}/install/tutorial_interfaces/include",
+                "${workspaceFolder}/install/more_interfaces/include",
+                "${workspaceFolder}/src/polygon_base/include"
+            ],
+            "name": "ROS"
+        }
+    ],
+    "version": 4
+}

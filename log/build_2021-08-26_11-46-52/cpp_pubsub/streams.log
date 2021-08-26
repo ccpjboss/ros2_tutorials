@@ -1,0 +1,52 @@
+[0.146s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/more_interfaces:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake /home/joaocastilho/dev_ws/src/cpp_pubsub -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joaocastilho/dev_ws/install/cpp_pubsub
+[0.180s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.236s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.648s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.666s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.748s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.761s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.032s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.148s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.154s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.545s] -- Found tutorial_interfaces: 0.0.0 (/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.777s] -- Configuring done
+[1.845s] -- Generating done
+[1.861s] -- Build files have been written to: /home/joaocastilho/dev_ws/build/cpp_pubsub
+[1.879s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/more_interfaces:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake /home/joaocastilho/dev_ws/src/cpp_pubsub -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joaocastilho/dev_ws/install/cpp_pubsub
+[1.881s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/more_interfaces:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_pubsub -- -j8 -l8
+[2.124s] [ 12%] [32mBuilding CXX object CMakeFiles/listener_num.dir/src/subscriber_member_function_num.cpp.o[0m
+[2.124s] [ 25%] [32mBuilding CXX object CMakeFiles/talker_num.dir/src/publisher_member_function_num.cpp.o[0m
+[2.150s] [ 37%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.153s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[17.690s] [ 62%] [32m[1mLinking CXX executable talker[0m
+[17.728s] [ 75%] [32m[1mLinking CXX executable talker_num[0m
+[19.457s] [ 75%] Built target talker_num
+[19.702s] [ 75%] Built target talker
+[21.988s] [ 87%] [32m[1mLinking CXX executable listener[0m
+[22.225s] [ 87%] Built target listener
+[22.556s] [100%] [32m[1mLinking CXX executable listener_num[0m
+[23.780s] [100%] Built target listener_num
+[23.792s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/more_interfaces:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_pubsub -- -j8 -l8
+[23.829s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/more_interfaces:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_pubsub
+[23.838s] -- Install configuration: "RelWithDebInfo"
+[23.838s] -- Execute custom install script
+[23.839s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[23.849s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[23.860s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker_num
+[23.870s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener_num
+[23.881s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[23.892s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[23.903s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[23.915s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[23.928s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[23.940s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[23.952s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[23.964s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[23.978s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[23.991s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[24.002s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[24.014s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[24.028s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[24.040s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[24.053s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[24.068s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/more_interfaces:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_pubsub

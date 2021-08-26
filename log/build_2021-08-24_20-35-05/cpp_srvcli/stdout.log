@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target client_three[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/client_three.dir/src/add_three_ints_client.cpp.o[0m
+[ 37%] Built target client
+[ 62%] Built target server_three
+[ 87%] Built target server

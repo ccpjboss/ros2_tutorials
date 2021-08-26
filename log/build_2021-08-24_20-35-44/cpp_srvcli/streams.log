@@ -1,0 +1,14 @@
+[0.020s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_srvcli -- -j8 -l8
+[0.063s] [35m[1mScanning dependencies of target client_three[0m
+[0.074s] [ 12%] [32mBuilding CXX object CMakeFiles/client_three.dir/src/add_three_ints_client.cpp.o[0m
+[0.083s] [ 37%] Built target server_three
+[0.089s] [ 87%] Built target server
+[0.089s] [ 87%] Built target client
+[0.115s] [01m[K/home/joaocastilho/dev_ws/src/cpp_srvcli/src/add_three_ints_client.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.115s]     5 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.115s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.115s] compilation terminated.
+[0.117s] make[2]: *** [CMakeFiles/client_three.dir/build.make:63: CMakeFiles/client_three.dir/src/add_three_ints_client.cpp.o] Error 1
+[0.117s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client_three.dir/all] Error 2
+[0.117s] make: *** [Makefile:141: all] Error 2
+[0.120s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_srvcli' returned '2': AMENT_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_srvcli -- -j8 -l8

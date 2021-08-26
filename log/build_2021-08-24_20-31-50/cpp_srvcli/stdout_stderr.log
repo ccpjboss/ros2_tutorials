@@ -1,0 +1,11 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/client_three.dir/src/add_three_ints_client.cpp.o[0m
+[ 37%] Built target server
+[ 62%] Built target server_three
+[ 87%] Built target client
+[01m[K/home/joaocastilho/dev_ws/src/cpp_srvcli/src/add_three_ints_client.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+    5 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/client_three.dir/build.make:63: CMakeFiles/client_three.dir/src/add_three_ints_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client_three.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

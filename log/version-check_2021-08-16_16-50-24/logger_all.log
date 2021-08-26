@@ -1,0 +1,22 @@
+[0.235s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'version-check']
+[0.236s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, main=<bound method VersionCheckVerb.main of <colcon_devtools.verb.version_check.VersionCheckVerb object at 0x7f6a091c77f0>>, verb_extension=<colcon_devtools.verb.version_check.VersionCheckVerb object at 0x7f6a091c77f0>, verb_name='version-check', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6a09117e20>)
+[1.289s] ERROR:colcon:colcon version-check: <Fault -32500: 'HTTPTooManyRequests: The action could not be performed because there were too many requests by the client. Limit may reset in 1 seconds.'>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/command.py", line 528, in verb_main
+    rc = context.args.main(context=context)
+  File "/usr/lib/python3/dist-packages/colcon_devtools/verb/version_check.py", line 36, in main
+    versions = pypi.package_releases(dist.project_name)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -32500: 'HTTPTooManyRequests: The action could not be performed because there were too many requests by the client. Limit may reset in 1 seconds.'>
+

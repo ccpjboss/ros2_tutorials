@@ -1,0 +1,13 @@
+[0.031s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy LD_LIBRARY_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_srvcli -- -j8 -l8
+[0.130s] [ 12%] [32mBuilding CXX object CMakeFiles/client_three.dir/src/add_three_ints_client.cpp.o[0m
+[0.145s] [ 37%] Built target server
+[0.146s] [ 62%] Built target server_three
+[0.147s] [ 87%] Built target client
+[0.183s] [01m[K/home/joaocastilho/dev_ws/src/cpp_srvcli/src/add_three_ints_client.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.183s]     5 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.183s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.183s] compilation terminated.
+[0.184s] make[2]: *** [CMakeFiles/client_three.dir/build.make:63: CMakeFiles/client_three.dir/src/add_three_ints_client.cpp.o] Error 1
+[0.184s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client_three.dir/all] Error 2
+[0.186s] make: *** [Makefile:141: all] Error 2
+[0.188s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_srvcli' returned '2': AMENT_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy LD_LIBRARY_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_srvcli -- -j8 -l8

@@ -1,0 +1,8 @@
+[01m[K/home/joaocastilho/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kmore_interfaces/msg/address_book.hpp: No such file or directory
+    4 | #include [01;31m[K"more_interfaces/msg/address_book.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/subscribe_address_book.dir/build.make:63: CMakeFiles/subscribe_address_book.dir/src/subscribe_address_book.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:332: CMakeFiles/subscribe_address_book.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

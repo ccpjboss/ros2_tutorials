@@ -1,0 +1,38 @@
+[0.045s] Invoking command in '/home/joaocastilho/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/my_package -- -j8 -l8
+[0.426s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.426s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.426s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.476s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.478s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.478s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/joaocastilho/dev_ws/src/my_package/include>
+[0.478s] -- Configured cppcheck exclude dirs and/or files: 
+[0.480s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.480s] -- Configured cpplint exclude dirs and/or files: 
+[0.481s] -- Added test 'lint_cmake' to check CMake code style
+[0.482s] -- Added test 'uncrustify' to check C / C++ code style
+[0.482s] -- Configured uncrustify additional arguments: 
+[0.483s] -- Added test 'xmllint' to check XML markup files
+[0.485s] -- Configuring done
+[0.491s] -- Generating done
+[0.492s] -- Build files have been written to: /home/joaocastilho/dev_ws/build/my_package
+[0.551s] [100%] Built target my_node
+[0.568s] Invoked command in '/home/joaocastilho/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/my_package -- -j8 -l8
+[0.621s] Invoking command in '/home/joaocastilho/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/my_package
+[0.634s] -- Install configuration: ""
+[0.634s] -- Up-to-date: /home/joaocastilho/dev_ws/install/my_package/lib/my_package/my_node
+[0.634s] -- Up-to-date: /home/joaocastilho/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[0.634s] -- Installing: /home/joaocastilho/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[0.635s] -- Up-to-date: /home/joaocastilho/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[0.635s] -- Installing: /home/joaocastilho/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[0.635s] -- Up-to-date: /home/joaocastilho/dev_ws/install/my_package/share/my_package/environment/path.sh
+[0.635s] -- Installing: /home/joaocastilho/dev_ws/install/my_package/share/my_package/environment/path.dsv
+[0.635s] -- Up-to-date: /home/joaocastilho/dev_ws/install/my_package/share/my_package/local_setup.bash
+[0.636s] -- Up-to-date: /home/joaocastilho/dev_ws/install/my_package/share/my_package/local_setup.sh
+[0.636s] -- Up-to-date: /home/joaocastilho/dev_ws/install/my_package/share/my_package/local_setup.zsh
+[0.636s] -- Installing: /home/joaocastilho/dev_ws/install/my_package/share/my_package/local_setup.dsv
+[0.636s] -- Installing: /home/joaocastilho/dev_ws/install/my_package/share/my_package/package.dsv
+[0.636s] -- Up-to-date: /home/joaocastilho/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[0.637s] -- Up-to-date: /home/joaocastilho/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[0.637s] -- Up-to-date: /home/joaocastilho/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[0.637s] -- Installing: /home/joaocastilho/dev_ws/install/my_package/share/my_package/package.xml
+[0.648s] Invoked command in '/home/joaocastilho/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/my_package

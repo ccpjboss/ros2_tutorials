@@ -1,0 +1,41 @@
+[0.732s] Invoking command in '/home/joaocastilho/dev_ws/src/py_pubsub': PYTHONPATH=/home/joaocastilho/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/joaocastilho/dev_ws/build/py_pubsub/build install --prefix /home/joaocastilho/dev_ws/install/py_pubsub --record /home/joaocastilho/dev_ws/build/py_pubsub/install.log --single-version-externally-managed
+[1.076s] /home/joaocastilho/.local/lib/python3.8/site-packages/setuptools/dist.py:697: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.076s]   warnings.warn(
+[1.076s] /home/joaocastilho/.local/lib/python3.8/site-packages/setuptools/dist.py:697: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.076s]   warnings.warn(
+[1.117s] running egg_info
+[1.118s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[1.118s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.118s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.119s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.119s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.119s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.122s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.168s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.169s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.169s] running build
+[1.170s] running build_py
+[1.170s] creating /home/joaocastilho/dev_ws/build/py_pubsub/build
+[1.170s] creating /home/joaocastilho/dev_ws/build/py_pubsub/build/lib
+[1.170s] creating /home/joaocastilho/dev_ws/build/py_pubsub/build/lib/py_pubsub
+[1.171s] copying py_pubsub/__init__.py -> /home/joaocastilho/dev_ws/build/py_pubsub/build/lib/py_pubsub
+[1.171s] copying py_pubsub/publisher_member_function.py -> /home/joaocastilho/dev_ws/build/py_pubsub/build/lib/py_pubsub
+[1.172s] running install
+[1.176s] running install_lib
+[1.177s] creating /home/joaocastilho/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[1.177s] copying /home/joaocastilho/dev_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/joaocastilho/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[1.177s] copying /home/joaocastilho/dev_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/joaocastilho/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[1.177s] byte-compiling /home/joaocastilho/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/__init__.py to __init__.cpython-38.pyc
+[1.177s] byte-compiling /home/joaocastilho/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[1.177s] running install_data
+[1.177s] creating /home/joaocastilho/dev_ws/install/py_pubsub/share/ament_index
+[1.178s] creating /home/joaocastilho/dev_ws/install/py_pubsub/share/ament_index/resource_index
+[1.178s] creating /home/joaocastilho/dev_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[1.178s] copying resource/py_pubsub -> /home/joaocastilho/dev_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[1.178s] copying package.xml -> /home/joaocastilho/dev_ws/install/py_pubsub/share/py_pubsub
+[1.178s] running install_egg_info
+[1.180s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/joaocastilho/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[1.181s] running install_scripts
+[1.209s] Installing talker script to /home/joaocastilho/dev_ws/install/py_pubsub/lib/py_pubsub
+[1.210s] writing list of installed files to '/home/joaocastilho/dev_ws/build/py_pubsub/install.log'
+[1.243s] Invoked command in '/home/joaocastilho/dev_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/joaocastilho/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/joaocastilho/dev_ws/build/py_pubsub/build install --prefix /home/joaocastilho/dev_ws/install/py_pubsub --record /home/joaocastilho/dev_ws/build/py_pubsub/install.log --single-version-externally-managed

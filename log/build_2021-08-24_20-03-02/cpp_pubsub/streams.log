@@ -1,0 +1,31 @@
+[0.076s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_pubsub -- -j8 -l8
+[0.898s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.899s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.899s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.900s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.900s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.900s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.900s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.900s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.999s] CMake Error at CMakeLists.txt:17 (find_package):
+[0.999s]   By not providing "Findtutorial_interfaces.cmake" in CMAKE_MODULE_PATH this
+[0.999s]   project has asked CMake to find a package configuration file provided by
+[1.000s]   "tutorial_interfaces", but CMake did not find one.
+[1.000s] 
+[1.000s]   Could not find a package configuration file provided by
+[1.000s]   "tutorial_interfaces" with any of the following names:
+[1.000s] 
+[1.000s]     tutorial_interfacesConfig.cmake
+[1.001s]     tutorial_interfaces-config.cmake
+[1.001s] 
+[1.001s]   Add the installation prefix of "tutorial_interfaces" to CMAKE_PREFIX_PATH
+[1.001s]   or set "tutorial_interfaces_DIR" to a directory containing one of the above
+[1.001s]   files.  If "tutorial_interfaces" provides a separate development package or
+[1.001s]   SDK, be sure it has been installed.
+[1.002s] 
+[1.003s] 
+[1.005s] -- Configuring incomplete, errors occurred!
+[1.006s] See also "/home/joaocastilho/dev_ws/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+[1.006s] See also "/home/joaocastilho/dev_ws/build/cpp_pubsub/CMakeFiles/CMakeError.log".
+[1.035s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[1.047s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_pubsub -- -j8 -l8

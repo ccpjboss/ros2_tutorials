@@ -1,0 +1,64 @@
+[0.048s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/more_interfaces:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake /home/joaocastilho/dev_ws/src/cpp_srvcli -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joaocastilho/dev_ws/install/cpp_srvcli
+[0.118s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.178s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.638s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.654s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.728s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.735s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.090s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.278s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.281s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.667s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[2.006s] -- Found tutorial_interfaces: 0.0.0 (/home/joaocastilho/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[2.028s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.378s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.381s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.382s] -- Configured cppcheck include dirs: 
+[2.382s] -- Configured cppcheck exclude dirs and/or files: 
+[2.382s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.382s] -- Configured cpplint exclude dirs and/or files: 
+[2.383s] -- Added test 'lint_cmake' to check CMake code style
+[2.385s] -- Added test 'uncrustify' to check C / C++ code style
+[2.385s] -- Configured uncrustify additional arguments: 
+[2.385s] -- Added test 'xmllint' to check XML markup files
+[2.415s] -- Configuring done
+[2.518s] -- Generating done
+[2.521s] -- Build files have been written to: /home/joaocastilho/dev_ws/build/cpp_srvcli
+[2.555s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/more_interfaces:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake /home/joaocastilho/dev_ws/src/cpp_srvcli -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joaocastilho/dev_ws/install/cpp_srvcli
+[2.559s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/more_interfaces:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_srvcli -- -j8 -l8
+[2.892s] [ 12%] [32mBuilding CXX object CMakeFiles/server_three.dir/src/add_three_ints_server.cpp.o[0m
+[2.928s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[2.966s] [ 37%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[2.978s] [ 50%] [32mBuilding CXX object CMakeFiles/client_three.dir/src/add_three_ints_client.cpp.o[0m
+[12.732s] [ 62%] [32m[1mLinking CXX executable server_three[0m
+[13.221s] [ 62%] Built target server_three
+[14.013s] [ 75%] [32m[1mLinking CXX executable client[0m
+[14.386s] [ 87%] [32m[1mLinking CXX executable server[0m
+[14.535s] [100%] [32m[1mLinking CXX executable client_three[0m
+[14.552s] [100%] Built target client
+[14.755s] [100%] Built target server
+[14.900s] [100%] Built target client_three
+[14.925s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/more_interfaces:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_srvcli -- -j8 -l8
+[15.007s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/more_interfaces:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_srvcli
+[15.037s] -- Install configuration: "RelWithDebInfo"
+[15.037s] -- Execute custom install script
+[15.038s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[15.055s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[15.074s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server_three
+[15.093s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client_three
+[15.112s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[15.132s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[15.157s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[15.207s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[15.229s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[15.246s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[15.264s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[15.299s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[15.341s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[15.376s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[15.418s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[15.472s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[15.517s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[15.594s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[15.634s] -- Symlinking: /home/joaocastilho/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[15.691s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/joaocastilho/dev_ws/install/tutorial_interfaces:/home/joaocastilho/dev_ws/install/cpp_srvcli:/home/joaocastilho/dev_ws/install/cpp_pubsub:/home/joaocastilho/dev_ws/install/turtlesim:/home/joaocastilho/dev_ws/install/my_package:/home/joaocastilho/dev_ws/install/more_interfaces:/home/joaocastilho/dev_ws/install/py_pubsub:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_srvcli

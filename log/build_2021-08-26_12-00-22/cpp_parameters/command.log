@@ -1,0 +1,6 @@
+Invoking command in '/home/joaocastilho/dev_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/joaocastilho/dev_ws/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/joaocastilho/dev_ws/install/cpp_parameters
+Invoked command in '/home/joaocastilho/dev_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/joaocastilho/dev_ws/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/joaocastilho/dev_ws/install/cpp_parameters
+Invoking command in '/home/joaocastilho/dev_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_parameters -- -j8 -l8
+Invoked command in '/home/joaocastilho/dev_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_parameters -- -j8 -l8
+Invoking command in '/home/joaocastilho/dev_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_parameters
+Invoked command in '/home/joaocastilho/dev_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_parameters

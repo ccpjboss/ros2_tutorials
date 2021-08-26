@@ -1,0 +1,39 @@
+[0.041s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_pubsub -- -j8 -l8
+[0.356s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.357s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.358s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.358s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.360s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.530s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.624s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.627s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.914s] -- Configuring done
+[0.914s] -- Generating done
+[0.916s] -- Build files have been written to: /home/joaocastilho/dev_ws/build/cpp_pubsub
+[0.946s] [35m[1mScanning dependencies of target listener[0m
+[0.965s] [ 50%] Built target talker
+[0.990s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[5.672s] [100%] [32m[1mLinking CXX executable listener[0m
+[5.915s] [100%] Built target listener
+[5.928s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_pubsub -- -j8 -l8
+[5.954s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_pubsub
+[5.962s] -- Install configuration: ""
+[5.962s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[5.963s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[5.965s] -- Set runtime path of "/home/joaocastilho/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[5.965s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[5.966s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[5.966s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[5.966s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[5.966s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[5.966s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[5.966s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[5.966s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[5.966s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[5.966s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[5.967s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[5.967s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[5.967s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[5.967s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[5.967s] -- Up-to-date: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[5.971s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_pubsub

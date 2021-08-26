@@ -1,0 +1,2 @@
+Invoking command in '/home/joaocastilho/dev_ws/build/tutorial_interfaces': /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/tutorial_interfaces -- -j8 -l8
+Invoked command in '/home/joaocastilho/dev_ws/build/tutorial_interfaces' returned '2': /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/tutorial_interfaces -- -j8 -l8

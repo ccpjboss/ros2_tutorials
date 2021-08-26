@@ -1,0 +1,4 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/client_three.dir/src/add_three_ints_client.cpp.o[0m
+[ 87%] Built target server
+[ 87%] Built target server_three
+[ 87%] Built target client

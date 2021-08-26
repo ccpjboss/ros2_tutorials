@@ -1,0 +1,65 @@
+[0.044s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake /home/joaocastilho/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/joaocastilho/dev_ws/install/cpp_pubsub
+[0.429s] -- The C compiler identification is GNU 9.3.0
+[0.430s] -- The CXX compiler identification is GNU 9.3.0
+[0.430s] -- Check for working C compiler: /usr/bin/cc
+[0.431s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.432s] -- Detecting C compiler ABI info
+[0.434s] -- Detecting C compiler ABI info - done
+[0.436s] -- Detecting C compile features
+[0.436s] -- Detecting C compile features - done
+[0.437s] -- Check for working CXX compiler: /usr/bin/c++
+[0.444s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.445s] -- Detecting CXX compiler ABI info
+[0.566s] -- Detecting CXX compiler ABI info - done
+[0.585s] -- Detecting CXX compile features
+[0.585s] -- Detecting CXX compile features - done
+[0.587s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.618s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.618s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.928s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.007s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.024s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.129s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.167s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.265s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.337s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.340s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.342s] -- Looking for pthread.h
+[1.417s] -- Looking for pthread.h - found
+[1.417s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.492s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.492s] -- Looking for pthread_create in pthreads
+[1.552s] -- Looking for pthread_create in pthreads - not found
+[1.552s] -- Looking for pthread_create in pthread
+[1.623s] -- Looking for pthread_create in pthread - found
+[1.625s] -- Found Threads: TRUE  
+[1.876s] -- Configuring done
+[1.884s] -- Generating done
+[1.885s] -- Build files have been written to: /home/joaocastilho/dev_ws/build/cpp_pubsub
+[1.892s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake /home/joaocastilho/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/joaocastilho/dev_ws/install/cpp_pubsub
+[1.894s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_pubsub -- -j8 -l8
+[1.934s] [35m[1mScanning dependencies of target talker[0m
+[1.971s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[4.717s] [100%] [32m[1mLinking CXX executable talker[0m
+[4.909s] [100%] Built target talker
+[4.924s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --build /home/joaocastilho/dev_ws/build/cpp_pubsub -- -j8 -l8
+[4.949s] Invoking command in '/home/joaocastilho/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_pubsub
+[4.957s] -- Install configuration: ""
+[4.958s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[4.959s] -- Set runtime path of "/home/joaocastilho/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[4.959s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[4.959s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[4.959s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[4.960s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[4.960s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[4.961s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[4.961s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[4.961s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[4.961s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[4.961s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[4.961s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[4.961s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[4.962s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[4.962s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[4.962s] -- Installing: /home/joaocastilho/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[4.965s] Invoked command in '/home/joaocastilho/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaocastilho/dev_ws/install/my_package_python:/opt/ros/foxy /usr/bin/cmake --install /home/joaocastilho/dev_ws/build/cpp_pubsub
